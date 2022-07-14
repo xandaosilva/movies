@@ -1,10 +1,9 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
-import MovieCard from '../components/MovieCard'
+import MovieCard from "../components/MovieCard";
 
-import './MoviesGrid.css';
+import "./MoviesGrid.css";
 
 const searchURL = import.meta.env.VITE_SEARCH;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -36,4 +35,4 @@ const Search = () => {
     )
 }
 
-export default Search
+export default Search;

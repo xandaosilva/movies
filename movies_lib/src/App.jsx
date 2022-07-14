@@ -1,6 +1,7 @@
-import { Outlet } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/Navbar'
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
+import "./App.css";
 
 function App() {
 
@@ -12,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
